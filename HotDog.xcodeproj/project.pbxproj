@@ -25,6 +25,7 @@
 		A0EFC0D62BC691A900AE5037 /* Exp7.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = A0EFC0D52BC691A800AE5037 /* Exp7.mlpackage */; };
 		A0EFC0D82BC691B500AE5037 /* Exp8.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = A0EFC0D72BC691B500AE5037 /* Exp8.mlpackage */; };
 		A0EFC0DA2BC6A4F300AE5037 /* test_pizza2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0EFC0D92BC6A4F300AE5037 /* test_pizza2.jpg */; };
+		A0EFC0E42BC80D6B00AE5037 /* test_hotdog_and_nothotdog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0EFC0E32BC80D6B00AE5037 /* test_hotdog_and_nothotdog.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		A0EFC0D52BC691A800AE5037 /* Exp7.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = Exp7.mlpackage; sourceTree = "<group>"; };
 		A0EFC0D72BC691B500AE5037 /* Exp8.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = Exp8.mlpackage; sourceTree = "<group>"; };
 		A0EFC0D92BC6A4F300AE5037 /* test_pizza2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test_pizza2.jpg; sourceTree = "<group>"; };
+		A0EFC0E32BC80D6B00AE5037 /* test_hotdog_and_nothotdog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test_hotdog_and_nothotdog.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				A0EFC0B42BC3F5C200AE5037 /* test_hotdog1.jpg */,
 				A0EFC0D12BC5377800AE5037 /* test_hotdog2.jpg */,
 				A0EFC0D22BC5377800AE5037 /* test_hotdog3.jpg */,
+				A0EFC0E32BC80D6B00AE5037 /* test_hotdog_and_nothotdog.jpg */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				A0EFC0AD2BC3EFF200AE5037 /* Base in Resources */,
 				A0EFC0B52BC3F5C200AE5037 /* test_hotdog1.jpg in Resources */,
 				A0EFC0D42BC5377800AE5037 /* test_hotdog3.jpg in Resources */,
+				A0EFC0E42BC80D6B00AE5037 /* test_hotdog_and_nothotdog.jpg in Resources */,
 				A0EFC0DA2BC6A4F300AE5037 /* test_pizza2.jpg in Resources */,
 				A0EFC0CB2BC4276700AE5037 /* test_pizza1.jpg in Resources */,
 				A0EFC0A82BC3EFF100AE5037 /* Base in Resources */,
