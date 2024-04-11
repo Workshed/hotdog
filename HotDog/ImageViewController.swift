@@ -71,22 +71,7 @@ class ImageViewController: UIViewController, StoryboardViewController {
     }
 
     private func isImageHotdog() async throws -> Bool {
-//        try await Task.sleep(nanoseconds: 3_000_000_000)
-        return try await withCheckedThrowingContinuation { continuation in
-            DetectionFactory.classifyImage(image) { observations in
-                var containsHotdog = false
-                for observation in observations {
-                    print(observation)
-//                    if observation.confidence > 0.4 {
-                        containsHotdog = true
-                        break
-//                    }
-                }
-
-                continuation.resume(with: .success(containsHotdog))
-            }
-        }
-//        return true
+        return try await DetectionFactory.isImageHotdog(image: image)
     }
 
     private func showResult(isHotDog: Bool) {

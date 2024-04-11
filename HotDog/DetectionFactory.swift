@@ -10,15 +10,37 @@ import Vision
 import UIKit
 
 class DetectionFactory {
+    static func isImageHotdog(image: UIImage) async throws -> Bool {
+        return try await withCheckedThrowingContinuation { continuation in
+            DetectionFactory.classifyImage(image) { observations in
+                var containsHotdog = false
+                for observation in observations {
+                    print(observation)
+
+                    let maxConfidenceLabel = observation.labels.sorted(by: { first, second in
+                        first.confidence > second.confidence
+                    }).first
+
+                    if let maxConfidenceLabel = maxConfidenceLabel,
+                        maxConfidenceLabel.identifier == "hotdog" &&
+                        maxConfidenceLabel.confidence > 0.4 {
+                            containsHotdog = true
+                            break
+                    }
+                }
+
+                continuation.resume(with: .success(containsHotdog))
+            }
+        }
+    }
+
     static func createClassificationRequest(completion: @escaping ([VNRecognizedObjectObservation])->()) -> VNCoreMLRequest {
         do {
 
             let config = MLModelConfiguration()
             config.computeUnits = .all
 
-//            let model = try VNCoreMLModel(for: HotdogDetector(configuration: config).model)
             let model = try VNCoreMLModel(for: Exp8(configuration: config).model)
-            model.inputImageFeatureName = "image"
 
             let request = VNCoreMLRequest(model: model) { response, _ in
                 if let observations = response.results as? [VNRecognizedObjectObservation] {
@@ -31,7 +53,6 @@ class DetectionFactory {
                 }
             }
 
-            //        request.imageCropAndScaleOption = .centerCrop
             request.imageCropAndScaleOption = .scaleFill
             return request
         } catch {
