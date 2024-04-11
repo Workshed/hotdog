@@ -11,11 +11,6 @@ class ViewController: UIViewController, StoryboardViewController {
 
     weak var coordinator: MainCoordinator?
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
-
     @IBAction func pickImage() {
         let picker = UIImagePickerController()
         picker.sourceType = .photoLibrary
@@ -35,29 +30,12 @@ extension ViewController: UIImagePickerControllerDelegate, UINavigationControlle
 
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         if let selectedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
-            // Do something with the selected image, e.g., display it on a UIImageView
-            print("Got an image")
             coordinator?.chosenImage(selectedImage)
         }
         picker.dismiss(animated: true, completion: nil)
     }
 
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
-        // Handle cancellation
         picker.dismiss(animated: true, completion: nil)
     }
 }
-//
-//extension ViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
-//    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
-//        if let takenPhoto = info[.originalImage] as? UIImage {
-//            // Use the taken photo here
-//        }
-//        picker.dismiss(animated: true, completion: nil)
-//    }
-//
-//    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
-//        // The user canceled the operation
-//        picker.dismiss(animated: true, completion: nil)
-//    }
-//}

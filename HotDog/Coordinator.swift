@@ -25,7 +25,6 @@ class MainCoordinator: NSObject, Coordinator {
     }
 
     func chosenImage(_ image: UIImage) {
-//        let vc = ImageViewController.instantiate(from: .main)
         let vc = ImageViewController.instantiate(from: .main) { coder in
             return ImageViewController(coder: coder, image: image, coordinator: self)
         }
