@@ -8,22 +8,52 @@
 
 /* Begin PBXBuildFile section */
 		A0EFC0A12BC3EFF100AE5037 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EFC0A02BC3EFF100AE5037 /* AppDelegate.swift */; };
-		A0EFC0A32BC3EFF100AE5037 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EFC0A22BC3EFF100AE5037 /* SceneDelegate.swift */; };
 		A0EFC0A52BC3EFF100AE5037 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EFC0A42BC3EFF100AE5037 /* ViewController.swift */; };
 		A0EFC0A82BC3EFF100AE5037 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A0EFC0A72BC3EFF100AE5037 /* Base */; };
 		A0EFC0AA2BC3EFF200AE5037 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0EFC0A92BC3EFF200AE5037 /* Assets.xcassets */; };
 		A0EFC0AD2BC3EFF200AE5037 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A0EFC0AC2BC3EFF200AE5037 /* Base */; };
+		A0EFC0B52BC3F5C200AE5037 /* test_hotdog1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0EFC0B42BC3F5C200AE5037 /* test_hotdog1.jpg */; };
+		A0EFC0BD2BC3FDC600AE5037 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EFC0BC2BC3FDC600AE5037 /* ImageViewController.swift */; };
+		A0EFC0BF2BC3FFF200AE5037 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EFC0BE2BC3FFF200AE5037 /* Coordinator.swift */; };
+		A0EFC0C12BC4007000AE5037 /* StoryboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EFC0C02BC4007000AE5037 /* StoryboardViewController.swift */; };
+		A0EFC0C32BC40B2B00AE5037 /* UILabel+border.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EFC0C22BC40B2B00AE5037 /* UILabel+border.swift */; };
+		A0EFC0C52BC40CA200AE5037 /* StrokedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EFC0C42BC40CA200AE5037 /* StrokedLabel.swift */; };
+		A0EFC0C72BC40E5E00AE5037 /* UIImage+stroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EFC0C62BC40E5E00AE5037 /* UIImage+stroke.swift */; };
+		A0EFC0C92BC40E7900AE5037 /* UIImageView+stroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EFC0C82BC40E7900AE5037 /* UIImageView+stroke.swift */; };
+		A0EFC0CB2BC4276700AE5037 /* test_pizza1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0EFC0CA2BC4276700AE5037 /* test_pizza1.jpg */; };
+		A0EFC0CD2BC4444900AE5037 /* HotdogDetector.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = A0EFC0CC2BC4444800AE5037 /* HotdogDetector.mlpackage */; };
+		A0EFC0D02BC5340300AE5037 /* DetectionFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EFC0CF2BC5340300AE5037 /* DetectionFactory.swift */; };
+		A0EFC0D32BC5377800AE5037 /* test_hotdog2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0EFC0D12BC5377800AE5037 /* test_hotdog2.jpg */; };
+		A0EFC0D42BC5377800AE5037 /* test_hotdog3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0EFC0D22BC5377800AE5037 /* test_hotdog3.jpg */; };
+		A0EFC0D62BC691A900AE5037 /* Exp7.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = A0EFC0D52BC691A800AE5037 /* Exp7.mlpackage */; };
+		A0EFC0D82BC691B500AE5037 /* Exp8.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = A0EFC0D72BC691B500AE5037 /* Exp8.mlpackage */; };
+		A0EFC0DA2BC6A4F300AE5037 /* test_pizza2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A0EFC0D92BC6A4F300AE5037 /* test_pizza2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A0EFC09D2BC3EFF100AE5037 /* HotDog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotDog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0EFC0A02BC3EFF100AE5037 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A0EFC0A22BC3EFF100AE5037 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A0EFC0A42BC3EFF100AE5037 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A0EFC0A72BC3EFF100AE5037 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0EFC0A92BC3EFF200AE5037 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0EFC0AC2BC3EFF200AE5037 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0EFC0AE2BC3EFF200AE5037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0EFC0B42BC3F5C200AE5037 /* test_hotdog1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test_hotdog1.jpg; sourceTree = "<group>"; };
+		A0EFC0BC2BC3FDC600AE5037 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		A0EFC0BE2BC3FFF200AE5037 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		A0EFC0C02BC4007000AE5037 /* StoryboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardViewController.swift; sourceTree = "<group>"; };
+		A0EFC0C22BC40B2B00AE5037 /* UILabel+border.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+border.swift"; sourceTree = "<group>"; };
+		A0EFC0C42BC40CA200AE5037 /* StrokedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokedLabel.swift; sourceTree = "<group>"; };
+		A0EFC0C62BC40E5E00AE5037 /* UIImage+stroke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+stroke.swift"; sourceTree = "<group>"; };
+		A0EFC0C82BC40E7900AE5037 /* UIImageView+stroke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+stroke.swift"; sourceTree = "<group>"; };
+		A0EFC0CA2BC4276700AE5037 /* test_pizza1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test_pizza1.jpg; sourceTree = "<group>"; };
+		A0EFC0CC2BC4444800AE5037 /* HotdogDetector.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = HotdogDetector.mlpackage; sourceTree = "<group>"; };
+		A0EFC0CF2BC5340300AE5037 /* DetectionFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectionFactory.swift; sourceTree = "<group>"; };
+		A0EFC0D12BC5377800AE5037 /* test_hotdog2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test_hotdog2.jpg; sourceTree = "<group>"; };
+		A0EFC0D22BC5377800AE5037 /* test_hotdog3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test_hotdog3.jpg; sourceTree = "<group>"; };
+		A0EFC0D52BC691A800AE5037 /* Exp7.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = Exp7.mlpackage; sourceTree = "<group>"; };
+		A0EFC0D72BC691B500AE5037 /* Exp8.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = Exp8.mlpackage; sourceTree = "<group>"; };
+		A0EFC0D92BC6A4F300AE5037 /* test_pizza2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test_pizza2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +86,38 @@
 		A0EFC09F2BC3EFF100AE5037 /* HotDog */ = {
 			isa = PBXGroup;
 			children = (
+				A0EFC0CC2BC4444800AE5037 /* HotdogDetector.mlpackage */,
+				A0EFC0D52BC691A800AE5037 /* Exp7.mlpackage */,
+				A0EFC0D72BC691B500AE5037 /* Exp8.mlpackage */,
 				A0EFC0A02BC3EFF100AE5037 /* AppDelegate.swift */,
-				A0EFC0A22BC3EFF100AE5037 /* SceneDelegate.swift */,
+				A0EFC0BE2BC3FFF200AE5037 /* Coordinator.swift */,
+				A0EFC0C02BC4007000AE5037 /* StoryboardViewController.swift */,
 				A0EFC0A42BC3EFF100AE5037 /* ViewController.swift */,
+				A0EFC0BC2BC3FDC600AE5037 /* ImageViewController.swift */,
+				A0EFC0CF2BC5340300AE5037 /* DetectionFactory.swift */,
+				A0EFC0C22BC40B2B00AE5037 /* UILabel+border.swift */,
+				A0EFC0C62BC40E5E00AE5037 /* UIImage+stroke.swift */,
+				A0EFC0C82BC40E7900AE5037 /* UIImageView+stroke.swift */,
+				A0EFC0C42BC40CA200AE5037 /* StrokedLabel.swift */,
 				A0EFC0A62BC3EFF100AE5037 /* Main.storyboard */,
+				A0EFC0B62BC3F5CF00AE5037 /* Images */,
 				A0EFC0A92BC3EFF200AE5037 /* Assets.xcassets */,
 				A0EFC0AB2BC3EFF200AE5037 /* LaunchScreen.storyboard */,
 				A0EFC0AE2BC3EFF200AE5037 /* Info.plist */,
 			);
 			path = HotDog;
+			sourceTree = "<group>";
+		};
+		A0EFC0B62BC3F5CF00AE5037 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A0EFC0D92BC6A4F300AE5037 /* test_pizza2.jpg */,
+				A0EFC0CA2BC4276700AE5037 /* test_pizza1.jpg */,
+				A0EFC0B42BC3F5C200AE5037 /* test_hotdog1.jpg */,
+				A0EFC0D12BC5377800AE5037 /* test_hotdog2.jpg */,
+				A0EFC0D22BC5377800AE5037 /* test_hotdog3.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +178,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0EFC0D32BC5377800AE5037 /* test_hotdog2.jpg in Resources */,
 				A0EFC0AA2BC3EFF200AE5037 /* Assets.xcassets in Resources */,
 				A0EFC0AD2BC3EFF200AE5037 /* Base in Resources */,
+				A0EFC0B52BC3F5C200AE5037 /* test_hotdog1.jpg in Resources */,
+				A0EFC0D42BC5377800AE5037 /* test_hotdog3.jpg in Resources */,
+				A0EFC0DA2BC6A4F300AE5037 /* test_pizza2.jpg in Resources */,
+				A0EFC0CB2BC4276700AE5037 /* test_pizza1.jpg in Resources */,
 				A0EFC0A82BC3EFF100AE5037 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +196,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0EFC0C32BC40B2B00AE5037 /* UILabel+border.swift in Sources */,
 				A0EFC0A52BC3EFF100AE5037 /* ViewController.swift in Sources */,
+				A0EFC0C52BC40CA200AE5037 /* StrokedLabel.swift in Sources */,
+				A0EFC0C72BC40E5E00AE5037 /* UIImage+stroke.swift in Sources */,
+				A0EFC0C12BC4007000AE5037 /* StoryboardViewController.swift in Sources */,
 				A0EFC0A12BC3EFF100AE5037 /* AppDelegate.swift in Sources */,
-				A0EFC0A32BC3EFF100AE5037 /* SceneDelegate.swift in Sources */,
+				A0EFC0C92BC40E7900AE5037 /* UIImageView+stroke.swift in Sources */,
+				A0EFC0CD2BC4444900AE5037 /* HotdogDetector.mlpackage in Sources */,
+				A0EFC0BF2BC3FFF200AE5037 /* Coordinator.swift in Sources */,
+				A0EFC0D62BC691A900AE5037 /* Exp7.mlpackage in Sources */,
+				A0EFC0D82BC691B500AE5037 /* Exp8.mlpackage in Sources */,
+				A0EFC0D02BC5340300AE5037 /* DetectionFactory.swift in Sources */,
+				A0EFC0BD2BC3FDC600AE5037 /* ImageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +286,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -275,7 +343,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -295,11 +363,13 @@
 				DEVELOPMENT_TEAM = 7Q8B62WGB9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HotDog/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To take pictures";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,11 +393,13 @@
 				DEVELOPMENT_TEAM = 7Q8B62WGB9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HotDog/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To take pictures";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
